@@ -9,42 +9,45 @@ export function createHero(): string {
               <span class="name">Dimitrije Stojanović</span>
               <span class="role">AI Researcher & Software Engineer</span>
             </h1>
-            
+
             <p class="hero-description">
-              PhD candidate specializing in Transformer models, generative AI, and computer vision. 
-              Seven years of automotive industry experience as a software engineer and domain expert, 
-              bridging theoretical AI research with practical application.
+              I build multi-agent LLM systems for safety-critical software — and ship them.
+              PhD candidate researching trustworthy AI for automotive safety, with seven years
+              as an automotive software engineer turning research into production.
             </p>
-            
+
             <div class="hero-actions">
               <a href="#contact" class="btn btn-primary">Get In Touch</a>
               <a href="#projects" class="btn btn-secondary">View My Work</a>
+              <!-- Download CV: drop a PDF at public/cv.pdf, then uncomment this button.
+              <a href="/personal_cv/cv.pdf" class="btn btn-tertiary" download>Download CV</a>
+              -->
             </div>
-            
+
             <div class="hero-social">
-              <a href="https://www.linkedin.com/in/dimitrije-stojanovic/" target="_blank" rel="noopener" class="social-link">
+              <a href="https://github.com/DimitrijeIT" target="_blank" rel="noopener" class="social-link" aria-label="GitHub">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222 0 1.606-.014 2.898-.014 3.293 0 .322.216.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/in/dimitrije-stojanovic/" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
                 </svg>
               </a>
-              <a href="mailto:dimitrije.stojanovic.95@gmail.com" class="social-link">
+              <a href="mailto:dimitrije.stojanovic.95@gmail.com" class="social-link" aria-label="Email">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
                 </svg>
               </a>
             </div>
           </div>
-          
+
           <div class="hero-visual">
             <div class="hero-image">
               <div class="hero-avatar">
-                <!-- Profile image will go here -->
-                <div class="avatar-placeholder">
-                  <svg width="120" height="120" viewBox="0 0 120 120" fill="none">
-                    <circle cx="60" cy="60" r="60" fill="var(--color-primary-light)"/>
-                    <path d="M60 60c8.284 0 15-6.716 15-15s-6.716-15-15-15-15 6.716-15 15 6.716 15 15 15zm0 7.5c-10 0-30 5.01-30 15v7.5h60v-7.5c0-9.99-20-15-30-15z" fill="var(--color-primary)"/>
-                  </svg>
-                </div>
+                <!-- Swap this monogram for a photo: replace the inner div with <img src="/personal_cv/headshot.jpg" alt="Dimitrije Stojanović"> -->
+                <div class="avatar-monogram" aria-hidden="true"><span>DS</span></div>
               </div>
               <div class="hero-decoration"></div>
             </div>

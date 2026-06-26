@@ -5,6 +5,7 @@ export function createResearch(): string {
         <div class="section-header">
           <h2 class="section-title">Research</h2>
           <p class="section-subtitle">My academic publications and research work</p>
+          <p class="research-summary">6 publications (2019–2025) — 4 peer-reviewed in IEEE proceedings — spanning computer vision, multi-agent LLM systems, and cloud architecture for AI.</p>
         </div>
 
         <div class="google-scholar">

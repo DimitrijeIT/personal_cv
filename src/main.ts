@@ -4,6 +4,7 @@ import { createHero } from './components/hero'
 import { createAbout } from './components/about'
 import { createExperience } from './components/experience'
 import { createSkills } from './components/skills'
+import { createProjects } from './components/projects'
 import { createResearch } from './components/research'
 import { createPublicAppearances } from './components/public-appearances'
 import { createContact } from './components/contact'
@@ -19,7 +20,13 @@ function initApp() {
   }
   
   console.log('Initializing app...')
-  
+
+  // Apply saved theme before rendering to avoid a flash of the wrong theme
+  const storedTheme = localStorage.getItem('theme')
+  if (storedTheme === 'dark' || storedTheme === 'light') {
+    document.documentElement.setAttribute('data-theme', storedTheme)
+  }
+
   // Create the main layout structure
   app.innerHTML = `
     <div class="cv-container">
@@ -29,6 +36,7 @@ function initApp() {
         ${createAbout()}
         ${createExperience()}
         ${createSkills()}
+        ${createProjects()}
         ${createResearch()}
         ${createPublicAppearances()}
         ${createContact()}
@@ -70,7 +78,24 @@ function initApp() {
       mobileMenuBtn.classList.toggle('active')
     })
   }
-  
+
+  // Dark-mode toggle (persisted; defaults to OS preference until the user chooses)
+  const root = document.documentElement
+  const themeToggle = document.querySelector('.theme-toggle')
+
+  const isDarkActive = (): boolean =>
+    root.getAttribute('data-theme') === 'dark' ||
+    (!root.hasAttribute('data-theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)
+
+  themeToggle?.setAttribute('aria-pressed', String(isDarkActive()))
+
+  themeToggle?.addEventListener('click', () => {
+    const next = isDarkActive() ? 'light' : 'dark'
+    root.setAttribute('data-theme', next)
+    localStorage.setItem('theme', next)
+    themeToggle.setAttribute('aria-pressed', String(next === 'dark'))
+  })
+
   console.log('App initialization complete')
 }
 
