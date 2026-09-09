@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 1087" width="840" height="1087">
+  <rect width="840" height="1087" fill="#ffffff"/>
+  <rect x="0.5" y="0.5" width="839" height="1086" fill="none" stroke="#e2e4e9"/>
+  <text x="420.0" y="150" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#1a1a1a">Comparison of AWS Architectures for</text>
+<text x="420.0" y="194" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#1a1a1a">Scalable and Cost-Efficient Retrieval-</text>
+<text x="420.0" y="238" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#1a1a1a">Augmented Generation</text>
+<text x="420.0" y="308" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-style="italic" fill="#333">Dimitrije Stojanović · Luka Vidaković · Bogdan Pavković ·</text>
+<text x="420.0" y="334" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-style="italic" fill="#333">Nenad Četić · Momčilo Krunić</text>
+<text x="420.0" y="374" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#555">2025 IEEE Zooming Innovation in Consumer Technologies</text>
+<text x="420.0" y="396" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#555">Conference (ZINC)</text>
+  
+<text x="84" y="466" font-family="Georgia, serif" font-size="15" font-weight="bold" font-style="italic" fill="#1a1a1a">Abstract</text>
+<rect x="84" y="484" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="500" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="515" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="530" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="546" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="562" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="577" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="592" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="608" width="196" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="634" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="649" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="664" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="680" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="696" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="711" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="726" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="742" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="758" width="238" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="783" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="798" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="814" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="830" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="845" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="860" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="876" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="892" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="907" width="151" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="932" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="948" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="964" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="979" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="84" y="994" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="484" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="500" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="515" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="530" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="546" width="196" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="572" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="587" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="602" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="618" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="634" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="649" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="664" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="680" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="696" width="238" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="721" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="736" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="752" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="768" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="783" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="798" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="814" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="830" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="845" width="151" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="870" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="886" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="902" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="917" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="932" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="948" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="964" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="979" width="321" height="7" rx="2" fill="#c9ccd4"/>
+<rect x="435.0" y="994" width="193" height="7" rx="2" fill="#c9ccd4"/>
+
+</svg>

@@ -2371,6 +2371,9 @@ section.animate-in {
 }
 
 .paper {
+  display: flex;
+  gap: var(--spacing-lg);
+  align-items: flex-start;
   padding: var(--spacing-lg);
   background-color: var(--color-bg-secondary);
   border-radius: var(--border-radius);
@@ -2381,6 +2384,33 @@ section.animate-in {
 .paper:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-md);
+}
+
+.paper-page {
+  flex: 0 0 200px;
+  display: block;
+  border-radius: var(--border-radius-sm);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+}
+
+.paper-page img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.paper:hover .paper-page {
+  transform: scale(1.03) rotate(-0.5deg);
+  box-shadow: var(--shadow-md);
+}
+
+.paper-body {
+  flex: 1;
+  min-width: 0;
 }
 
 .paper-title {
@@ -2403,11 +2433,26 @@ section.animate-in {
   font-weight: 600;
 }
 
+.paper-venue {
+  padding: 2px var(--spacing-xs);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-sm);
+  font-size: var(--font-size-xs, 0.75rem);
+  font-weight: 500;
+  color: var(--color-text-muted);
+}
+
 .paper-abstract {
   margin-bottom: var(--spacing-md);
   color: var(--color-text-secondary);
   font-size: var(--font-size-base);
   line-height: 1.6;
+}
+
+.paper-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
 }
 
 .paper-link {
@@ -2426,6 +2471,17 @@ section.animate-in {
   background-color: var(--color-primary);
 }
 
+.paper-link-secondary {
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary-light);
+}
+
+.paper-link-secondary:hover {
+  background-color: var(--color-primary-light);
+  color: white;
+}
+
 .paper-status {
   font-style: italic;
   color: var(--color-text-muted);
@@ -2434,9 +2490,16 @@ section.animate-in {
 
 @media (max-width: 768px) {
   .paper {
+    flex-direction: column;
     padding: var(--spacing-md);
   }
-  
+
+  .paper-page {
+    flex: none;
+    width: 160px;
+    align-self: center;
+  }
+
   .paper-title {
     font-size: var(--font-size-md);
   }
