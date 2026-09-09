@@ -866,6 +866,19 @@ section.animate-in {
   border-radius: 0.5rem;
 }
 
+/* Fallback shown when a company logo image is missing */
+.logo-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-family: var(--font-family-sans);
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--color-primary);
+}
+
 .job-info {
   flex: 1;
 }

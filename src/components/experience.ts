@@ -13,12 +13,47 @@ export function createExperience(): string {
             <div class="timeline-content">
               <div class="timeline-header">
                 <div class="company-logo">
+                  <img src="/personal_cv/logos/nortal.png" alt="Nortal" class="logo" onerror="this.onerror=null;this.replaceWith(Object.assign(document.createElement('span'),{className:'logo-fallback',textContent:'N'}))">
+                </div>
+                <div class="job-info">
+                  <h3 class="job-title">Senior Software Engineer</h3>
+                  <span class="company">Nortal</span>
+                  <span class="period">2025 - Present</span>
+                </div>
+              </div>
+              <div class="job-description">
+                <p>
+                  Building AI-powered image search algorithms and scalable AWS cloud solutions for
+                  large organizations and government clients.
+                </p>
+                <ul class="achievements">
+                  <li>Develop image search and retrieval algorithms powered by AI and computer vision</li>
+                  <li>Design and deploy scalable cloud solutions on AWS for enterprise and public-sector systems</li>
+                  <li>Apply machine learning to large-scale, real-world organizational data</li>
+                  <li>Deliver software for government and large-organization environments</li>
+                </ul>
+                <div class="tech-stack">
+                  <span class="tech-tag">AI / ML</span>
+                  <span class="tech-tag">Computer Vision</span>
+                  <span class="tech-tag">Image Search</span>
+                  <span class="tech-tag">AWS</span>
+                  <span class="tech-tag">Cloud Architecture</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div class="company-logo">
                   <img src="/personal_cv/logos/tttech_auto.png" alt="TTTech Auto" class="logo">
                 </div>
                 <div class="job-info">
                   <h3 class="job-title">Senior Software Engineer</h3>
                   <span class="company">TTTech Auto</span>
-                  <span class="period">2018 - Present</span>
+                  <span class="period">2018 - 2025</span>
                 </div>
               </div>
               <div class="job-description">
