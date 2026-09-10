@@ -5,20 +5,22 @@ export function createHero(): string {
         <div class="hero-content">
           <div class="hero-text">
             <h1 class="hero-title">
-              <span class="greeting">Hello, I'm</span>
+              <span class="greeting">AI Transformation · Engineering Organisations</span>
               <span class="name">Dimitrije Stojanović</span>
-              <span class="role">AI Researcher & Software Engineer</span>
+              <span class="role">Consultant, researcher, and engineer</span>
             </h1>
 
             <p class="hero-description">
-              I build multi-agent LLM systems for safety-critical software — and ship them.
-              PhD candidate researching trustworthy AI for automotive safety, with seven years
-              as an automotive software engineer turning research into production.
+              I help engineering-heavy organisations turn AI adoption into measured results:
+              making operations visible, grounding decisions in evidence, and rebuilding
+              processes for change. Behind every recommendation stand seven years of automotive
+              software engineering and doctoral research in trustworthy AI for safety-critical
+              systems.
             </p>
 
             <div class="hero-actions">
-              <a href="#contact" class="btn btn-primary">Get In Touch</a>
-              <a href="#projects" class="btn btn-secondary">View My Work</a>
+              <a href="#contact" class="btn btn-primary">Start a Conversation</a>
+              <a href="#projects" class="btn btn-secondary">See the Work</a>
               <!-- Download CV: drop a PDF at public/cv.pdf, then uncomment this button.
               <a href="/personal_cv/cv.pdf" class="btn btn-tertiary" download>Download CV</a>
               -->

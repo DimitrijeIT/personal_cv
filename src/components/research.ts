@@ -133,7 +133,7 @@ export function createResearch(): string {
       <div class="container">
         <div class="section-header">
           <h2 class="section-title">Research</h2>
-          <p class="section-subtitle">My academic publications and research work</p>
+          <p class="section-subtitle">Publications and doctoral work on trustworthy AI for safety-critical systems</p>
           <p class="research-summary">7 peer-reviewed IEEE publications (2019–2025) spanning computer vision, multi-agent LLM systems, automotive security, and cloud architecture for AI.</p>
         </div>
 

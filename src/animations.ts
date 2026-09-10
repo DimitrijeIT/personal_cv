@@ -46,8 +46,6 @@ export function initializeAnimations(): void {
   window.addEventListener('scroll', handleScroll, { passive: true })
   handleScroll()
 
-  // Initialize typing animation
-  initializeTypingAnimation()
 }
 
 function initializeScrollSpy(): void {
@@ -126,47 +124,3 @@ function animateCounters(): void {
   })
 }
 
-function initializeTypingAnimation(): void {
-  const typewriterElement = document.querySelector('.role') as HTMLElement
-  if (!typewriterElement) return
-
-  const roles = ['AI Researcher', 'PhD Candidate', 'Software Engineer', 'University Teacher', 'Startup Co-Founder']
-
-  // Respect reduced-motion: show a static role instead of cycling
-  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    typewriterElement.textContent = roles[0]
-    return
-  }
-
-  let currentRoleIndex = 0
-  let currentCharIndex = 0
-  let isDeleting = false
-
-  function typeRole() {
-    const currentRole = roles[currentRoleIndex]
-
-    if (isDeleting) {
-      typewriterElement.textContent = currentRole.substring(0, currentCharIndex - 1)
-      currentCharIndex--
-    } else {
-      typewriterElement.textContent = currentRole.substring(0, currentCharIndex + 1)
-      currentCharIndex++
-    }
-
-    let typeSpeed = isDeleting ? 50 : 100
-
-    if (!isDeleting && currentCharIndex === currentRole.length) {
-      typeSpeed = 2000 // Pause at end
-      isDeleting = true
-    } else if (isDeleting && currentCharIndex === 0) {
-      isDeleting = false
-      currentRoleIndex = (currentRoleIndex + 1) % roles.length
-      typeSpeed = 500
-    }
-
-    setTimeout(typeRole, typeSpeed)
-  }
-
-  // Start the typing animation after a delay
-  setTimeout(typeRole, 1000)
-}

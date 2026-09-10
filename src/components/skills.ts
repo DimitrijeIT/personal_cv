@@ -15,7 +15,7 @@ export function createSkills(): string {
         <div class="container">
           <div class="section-header">
             <h2 class="section-title">Skills & Technologies</h2>
-            <p class="section-subtitle">Expertise areas and Technologies I work with</p>
+            <p class="section-subtitle">Depth across AI systems, automotive software, and engineering leadership</p>
           </div>
           
           <div class="skills-content">

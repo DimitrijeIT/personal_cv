@@ -4,7 +4,7 @@ export function createPublicAppearances(): string {
       <div class="container">
         <div class="section-header">
           <h2 class="section-title">Public Appearances</h2>
-          <p class="section-subtitle">Conference talks, podcasts, and online presentations</p>
+          <p class="section-subtitle">Conference talks, podcasts, and lectures</p>
         </div>
         
         <div class="appearances-grid">

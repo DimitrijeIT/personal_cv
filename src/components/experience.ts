@@ -4,7 +4,7 @@ export function createExperience(): string {
       <div class="container">
         <div class="section-header">
           <h2 class="section-title">Experience</h2>
-          <p class="section-subtitle">My professional journey and achievements</p>
+          <p class="section-subtitle">Automotive software, AI research, and consulting</p>
         </div>
         
         <div class="experience-timeline">

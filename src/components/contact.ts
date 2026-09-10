@@ -3,18 +3,18 @@ export function createContact(): string {
     <section id="contact" class="contact">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Get In Touch</h2>
-          <p class="section-subtitle">Ready to work together? Let's discuss your next project</p>
+          <h2 class="section-title">Contact</h2>
+          <p class="section-subtitle">Consulting, research collaboration, and speaking enquiries</p>
         </div>
         
         <div class="contact-content">
           <div class="contact-info">
             <div class="contact-text">
-              <h3>Let's Build Something Amazing</h3>
+              <h3>A Direct Line</h3>
               <p>
-                I'm always interested in new opportunities and exciting projects. 
-                Whether you have a specific project in mind or just want to connect, 
-                I'd love to hear from you.
+                If your organisation is weighing what AI should change — and what it should
+                not — I am glad to compare notes. I answer every serious enquiry personally,
+                usually within a day.
               </p>
             </div>
             

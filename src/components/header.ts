@@ -5,7 +5,13 @@ export function createHeader(): string {
       <div class="container">
         <div class="header-content">
           <div class="logo">
-            <a href="#hero" class="logo-text">Dimitrije Stojanović</a>
+            <a href="#hero" class="logo-text">
+              <svg class="logo-mark" width="24" height="24" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+                <path class="mark-outer" d="M32 6 L58 56 L6 56 Z" stroke-width="3.4"/>
+                <path class="mark-inner" d="M18 45 L32 24 L46 45" stroke-width="3.4"/>
+              </svg>
+              Dimitrije Stojanović
+            </a>
           </div>
 
           <div class="header-actions">
